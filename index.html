@@ -140,6 +140,56 @@
             transform: scale(1.05);
         }
 
+        /* About Section */
+        .about-section {
+            background-color: #f8f9fa;
+            padding: 50px 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 40px;
+        }
+
+        .about-section h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-align: center;
+            color: #2980B9;
+        }
+
+        .about-content {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .about-image img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        .about-text {
+            flex: 1;
+            text-align: left;
+        }
+
+        .about-text p {
+            font-size: 18px;
+            margin-bottom: 15px;
+            line-height: 1.8;
+            color: #333;
+        }
+
+        .about-text strong {
+            color: #2980B9;
+            font-weight: bold;
+        }
+
         /* Footer */
         footer {
             background-color: #2980B9;
@@ -191,34 +241,44 @@
     </section>
 
     <!-- Profil, Galeri, Instagram Section -->
-    <section class="info-section">
+   <section class="info-section">
+    <div class="container">
+        <h2>Profil, Galeri, dan Tentang Website</h2>
+
+        <!-- Profil -->
+        <div class="section">
+            <h3 id="profil">Profil</h3>
+            <p>Kelas XRPL2 adalah kelas unggulan di SMK Pangudi Luhur Seputih Mataram, yang berfokus pada bidang *Rekayasa Perangkat Lunak*. Dengan tenaga pengajar profesional dan fasilitas memadai, kami membentuk siswa yang kompeten dan siap menghadapi dunia kerja di bidang teknologi informasi. Beragam kegiatan ekstrakurikuler dan program pengembangan diri juga kami hadirkan untuk memperluas pengalaman belajar.</p>
+            <div class="info-buttons">
+                <a href="Profil.html" class="btn">Lihat Profil</a>
+            </div>
+        </div>
+
+        <!-- Galeri -->
+        <div class="section">
+            <h3 id="galeri">Galeri</h3>
+            <p>Galeri Kelas XRPL2 adalah dokumentasi momen-momen berharga siswa, mulai dari kegiatan pembelajaran di kelas, pelatihan teknologi, hingga partisipasi dalam perlombaan nasional. Dengan penuh kreativitas, kami mengabadikan cerita tentang perjalanan belajar dan pencapaian kami yang dapat menginspirasi generasi muda lainnya.</p>
+            <div class="info-buttons">
+                <a href="Galeri.html" class="btn">Lihat Galeri</a>
+            </div>
+        </div>
+
+        <!-- Tentang Website -->
+        <div class="section">
+            <h3 id="tentang">Tentang Website</h3>
+            <p>Website ini dirancang untuk menjadi media informasi sekaligus sarana komunikasi bagi siswa, guru, dan masyarakat luas.</p>
+
+    <!-- About Section -->
+    <section class="about-section">
         <div class="container">
-            <h2>Profil, Galeri, Instagram</h2>
-
-            <!-- Profil -->
-            <div class="section">
-                <h3 id="profil">Profil</h3>
-                <p>Kelas XRPL2 adalah kelas unggulan di SMK Pangudi Luhur Seputih Mataram yang fokus pada bidang Rekayasa Perangkat Lunak. Dengan tenaga pengajar berpengalaman, kurikulum modern, dan fasilitas memadai, kami bertujuan mencetak siswa yang siap menghadapi tantangan dunia teknologi.</p>
-                <div class="info-buttons">
-                    <a href="Profil.html" class="btn">Lihat Profil</a>
+            <h2>Tentang Website Ini</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="timpembuat.jpg" alt="Tim Pembuat Website">
                 </div>
-            </div>
-
-            <!-- Galeri -->
-            <div class="section">
-                <h3 id="galeri">Galeri</h3>
-                <p>Galeri Kelas XRPL2 menampilkan berbagai momen berharga, mulai dari kegiatan pembelajaran, perlombaan, hingga kerja sama dengan industri. Temukan kisah inspiratif dan dokumentasi visual dari perjalanan kami.</p>
-                <div class="info-buttons">
-                    <a href="Galeri.html" class="btn">Lihat Galeri</a>
-                </div>
-            </div>
-
-            <!-- Instagram -->
-            <div class="section">
-                <h3 id="ig">Instagram</h3>
-                <p>Ikuti kami di Instagram untuk mendapatkan update terbaru, foto-foto kegiatan, dan informasi menarik lainnya tentang Kelas XRPL2. Kami berbagi momen-momen berharga dan inspirasi untuk semua pengikut kami.</p>
-                <div class="info-buttons">
-                    <a href="https://www.instagram.com/xrpl.doea_/profilecard/?igsh=MmltNG56eDN2OHE0" class="btn">Ikuti Kami</a>
+                <div class="about-text">
+                    <p>Website ini dibuat oleh Salah satu siswa kelas 10 di SMK Pangudi Luhur</p>
+                    <p><strong>Pembuat:</strong> Yehezkiel Nanda Pradana</p>
                 </div>
             </div>
         </div>
@@ -226,15 +286,7 @@
 
     <!-- Footer -->
     <footer>
-        <div class="container">
-            <p>&copy; 2024 KELAS XRPL2 | SMK Pangudi Luhur Seputih Mataram</p>
-            <p>Follow Us: 
-                <a href="#">Facebook</a> | 
-                <a href="#">Instagram</a> | 
-                <a href="#">YouTube</a>
-            </p>
-        </div>
+        <p>&copy; 2024 KELAS XRPL2 | SMK Pangudi Luhur Seputih Mataram</p>
     </footer>
-
 </body>
-</html>
+        </html>
